@@ -1,0 +1,70 @@
+/* scaffolding */
+
+@font-face {
+	font-family: 'Raleway';
+	src: local('Raleway Bold'), local('Raleway-Bold'),
+		url('../fonts/Raleway-Bold.woff2') format('woff2'),
+		url('../fonts/Raleway-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
+		url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+		url('../fonts/Raleway-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bradobrei';
+	src: local('Bradobrei Regular'), local('Bradobrei'),
+		url('../fonts/Bradobrei.woff2') format('woff2'),
+		url('../fonts/Bradobrei.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:hover,
+:active,
+:focus {
+	outline: none;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Verdana', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+a,
+a:hover,
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+/**/
